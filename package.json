@@ -1,0 +1,24 @@
+{
+  "name": "minpixel",
+  "description": "",
+  "repository": "git://github.com/.git",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "main.js",
+  "dependencies": {
+    "parcel": "^1.11.0",
+    "pixi.js": "^4.8.5",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.6",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "typescript": "^3.2.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
+  }
+}
